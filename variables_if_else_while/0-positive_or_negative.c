@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - Will assign a random number to the variable each time its executed
+ * main - Will assign a random number to the variable each time its executed.
  *
  * Return: value 0.
  */
