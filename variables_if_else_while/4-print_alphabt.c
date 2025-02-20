@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * main - Prints some letters of alphabet
+  * main: Prints some letters of alphabet
   *
   * Return: (0)
   */
