@@ -11,13 +11,17 @@ int main(void)
 	while (poo++ < 100)
 	{
 		if ((poo % 3 == 0) && (poo % 5 == 0))
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		else if ((poo % 3) == 0)
-			printf("Fizz ");
+			printf("Fizz");
 		else if ((poo % 5) == 0)
-			printf("Buzz ");
+			printf("Buzz");
 		else
-			printf("%d ", poo);
+			printf("%d", poo);
+
+		if (poo < 100)
+			printf(" ");
 	}
+
 	return (0);
 }
