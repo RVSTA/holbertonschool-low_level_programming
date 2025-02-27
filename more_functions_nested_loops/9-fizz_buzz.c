@@ -12,6 +12,7 @@ int main(void)
 	{
 		if ((poo % 3 == 0) && (poo % 5 == 0))
 			printf("FizzBuzz");
+
 		else if ((poo % 3) == 0)
 			printf("Fizz");
 		else if ((poo % 5) == 0)
