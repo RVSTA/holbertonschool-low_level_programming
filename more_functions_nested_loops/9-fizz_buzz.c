@@ -19,6 +19,5 @@ int main(void)
 		else
 			printf("%d ", poo);
 	}
-	printf("\n");
 	return (0);
 }
